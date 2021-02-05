@@ -1,5 +1,12 @@
 # KeyLogger_Python
-basic key logger in python.
+basic key logger in python. Additionally using nodemailer to send the
+file containing the keys of the user.
+
+### Node Packages:
+```bash
+npm i -y
+npm i nodemailer
+```
 
 ### Env File Format:
 ```bash
