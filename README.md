@@ -3,5 +3,6 @@ basic key logger in python.
 
 ### Env File Format:
 ```bash
-PASSWORD="yourpassword123"
+MAIL="yourmail@gmail.com"
+ACCESS_KEY="yourpassword123"
 ```
