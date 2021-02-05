@@ -4,7 +4,7 @@ file containing the keys of the user.
 
 ### Node Packages:
 ```bash
-npm i -y
+npm i dotenv
 npm i nodemailer
 ```
 
